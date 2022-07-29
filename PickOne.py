@@ -45,10 +45,10 @@ while convince.upper() != no.upper():
     # So these method upper()= for make input uppercase and strip()= to remove a extra space
     convince = input(">> Are you ready ?(Yes/No):").upper().strip()
     print("")
-    if convince.upper() != "yes".upper() and convince.upper() != no.upper():  # if your answer neither "yes" or "no"
+    if convince.upper() != "YES" and convince.upper() != no.upper():  # if your answer neither "yes" or "no"
         continue  # back to input until your answer either "yes" or "no"
 
-    if convince.upper() == "yes".upper():  # if your answer is "yes"
+    if convince.upper() == "YES" :  # if your answer is "yes"
         print("Let's Count down :")
         while countdown != 0:  # count down to get a result
             print(countdown)
